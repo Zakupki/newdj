@@ -16,10 +16,3 @@ _main:
 # AcmeDemoBundle routes (to be removed)
 _acme_demo:
     resource: "@AcmeDemoBundle/Resources/config/routing.yml"
-sonata_page_exceptions:
-    resource: '@SonataPageBundle/Resources/config/routing/exceptions.xml'
-    prefix: /
-
-sonata_page_cache:
-    resource: '@SonataPageBundle/Resources/config/routing/cache.xml'
-    prefix: /
