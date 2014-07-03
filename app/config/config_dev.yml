@@ -30,7 +30,6 @@ assetic:
 #swiftmailer:
 #    delivery_address: me@example.com
 
-
 sonata_block:
     default_contexts: [cms]
     blocks:
