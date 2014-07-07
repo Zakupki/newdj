@@ -30,6 +30,7 @@ class AppKernel extends Kernel
 
             // Then add SonataAdminBundle
             new Sonata\AdminBundle\SonataAdminBundle(),
+            new Orange\DjBundle\OrangeDjBundle(),
 
         );
 
