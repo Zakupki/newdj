@@ -4,6 +4,10 @@
     <option name="typedPaths">
       <list>
         <element elementPath="$PROJECT_DIR$/app" typeId="app_directory" />
+<<<<<<< Updated upstream
+=======
+        <element elementPath="$PROJECT_DIR$/vendor" typeId="vendor_directory" />
+>>>>>>> Stashed changes
         <element elementPath="$PROJECT_DIR$/web" typeId="web_directory" />
       </list>
     </option>
