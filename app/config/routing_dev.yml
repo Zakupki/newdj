@@ -14,8 +14,11 @@ _main:
     resource: routing.yml
 
 # AcmeDemoBundle routes (to be removed)
-_acme_demo:
-    resource: "@AcmeDemoBundle/Resources/config/routing.yml"
+#_acme_demo:
+#    resource: "@AcmeDemoBundle/Resources/config/routing.yml"
+
+_orange_dj:
+    resource: "@OrangeDjBundle/Resources/config/routing.yml"
 
 admin:
     resource: '@SonataAdminBundle/Resources/config/routing/sonata_admin.xml'
