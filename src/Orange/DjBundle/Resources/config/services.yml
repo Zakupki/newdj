@@ -2,10 +2,12 @@ parameters:
 #    orange_dj.example.class: Orange\DjBundle\Example
 
 services:
+    orange.twig.orange_extension:
+        class: Orange\DjBundle\Twig\ControllerActionExtension
+        calls:
+                    - [setRequest, ["@?request="]]
+        tags:
+            - { name: twig.extension }
 #    orange_dj.example:
 #        class: %orange_dj.example.class%
 #        arguments: [@service_id, "plain_value", %parameter%]
-    orange.twig.orange_extension:
-        class: Orange\DjBundle\Twig\OrangeExtension
-        tags:
-            - { name: twig.extension }

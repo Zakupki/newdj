@@ -4,7 +4,7 @@ namespace Orange\DjBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class DefaultController extends FrontController
+class DefaultController extends Controller
 {
     public function indexAction()
     {
