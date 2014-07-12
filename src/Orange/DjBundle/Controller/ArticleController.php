@@ -4,10 +4,10 @@ namespace Orange\DjBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class DefaultController extends FrontController
+class ArticleController extends FrontController
 {
     public function indexAction()
     {
-        return $this->render('OrangeDjBundle:Default:index.html.twig', array('name' => 123));
+        return $this->render('OrangeDjBundle:Article:index.html.twig', array('name' => 123));
     }
 }
