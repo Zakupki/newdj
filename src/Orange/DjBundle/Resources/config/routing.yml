@@ -2,6 +2,10 @@ orange_dj_homepage:
     path:     /
     defaults: { _controller: OrangeDjBundle:Default:index }
 
+orange_dj_contacts:
+    path:     /contacts
+    defaults: { _controller: OrangeDjBundle:Default:contacts }
+
 orange_dj_articles:
     path:     /articles
     defaults: { _controller: OrangeDjBundle:Article:index }
@@ -11,3 +15,4 @@ orange_dj_article:
     defaults: { _controller: OrangeDjBundle:Article:view }
     requirements:
             page:  \d+
+

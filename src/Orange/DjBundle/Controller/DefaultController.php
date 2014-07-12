@@ -10,4 +10,8 @@ class DefaultController extends Controller
     {
         return $this->render('OrangeDjBundle:Default:index.html.twig', array('name' => 123));
     }
+    public function contactsAction()
+    {
+        return $this->render('OrangeDjBundle:Default:contacts.html.twig');
+    }
 }

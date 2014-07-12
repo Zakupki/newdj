@@ -31,15 +31,15 @@
         <div class="n-frame">
             <nav id="nav">
                 <ul>
-                    <li><a href="/">главная</a></li>
+                    <li{% if get_controller_name()=='default' and get_action_name()=='index' %} class="active"{% endif %}><a href="/">главная</a></li>
                     <li{% if get_controller_name()=='article' %} class="active"{% endif %}><a href="/articles">почитать</a></li>
                     <li{% if get_controller_name()=='event' %} class="active"{% endif %}><a href="/events">афиша</a></li>
-                    <li><a href="/chronicle">хроника</a></li>
-                    <li><a href="/music">музыка</a></li>
-                    <li><a href="/style">стиль</a></li>
-                    <li><a href="/equipment">техника</a></li>
-                    <li><a href="/places">места</a></li>
-                    <li><a href="/contacts">контакты</a></li>
+                    <li{% if get_controller_name()=='chronicle' %} class="active"{% endif %}><a href="/chronicle">хроника</a></li>
+                    <li{% if get_controller_name()=='music' %} class="active"{% endif %}><a href="/music">музыка</a></li>
+                    <li{% if get_controller_name()=='style' %} class="active"{% endif %}><a href="/style">стиль</a></li>
+                    <li{% if get_controller_name()=='equipment' %} class="active"{% endif %}><a href="/equipment">техника</a></li>
+                    <li{% if get_controller_name()=='place' %} class="active"{% endif %}><a href="/places">места</a></li>
+                    <li{% if get_action_name()=='contacts'%} class="active"{% endif %}><a href="/contacts">контакты</a></li>
                 </ul>
             </nav>
             <!-- add class="select" -->
